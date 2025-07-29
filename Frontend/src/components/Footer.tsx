@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>&copy; 2024 Prakash Electric Works Motihari. All rights reserved. | Serving Bihar with quality electronics repair services.</p>
+          <p>&copy; 2025 Prakash Electric Works Motihari. All rights reserved. | Serving Bihar with quality electronics repair services.</p>
         </div>
       </div>
     </footer>
