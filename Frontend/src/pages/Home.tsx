@@ -248,7 +248,7 @@ const Home = () => {
                   Book service
                 </Button>
               </Link>
-              <a href="tel:+919876543210" className="flex-1">
+              <a href="tel:+919934900409" className="flex-1">
                 <Button variant="outline" size="lg" className="w-full">
                   <Phone className="h-4 w-4 mr-2" />
                   Call now
