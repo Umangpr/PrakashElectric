@@ -10,12 +10,12 @@ interface SEOHeadProps {
 
 const SEOHead = ({ title, description, keywords, image }: SEOHeadProps) => {
   const location = useLocation();
-  const currentUrl = `https://electrofixmotihari.com${location.pathname}`;
-  const defaultImage = "https://electrofixmotihari.com/og-image.jpg";
+  const currentUrl = `https://prakash-electric.vercel.app/${location.pathname}`;
+  const defaultImage = "https://prakash-electric.vercel.app/prakashelectric.png";
 
   useEffect(() => {
     // Update document title
-    document.title = `${title} | ElectroFix Motihari - Electronics Repair Shop Bihar`;
+    document.title = `${title} | Prakash Electric Works Motihari - Electronics Repair Shop Bihar`;
 
     // Update or create meta tags
     const updateMetaTag = (name: string, content: string, attribute = 'name') => {
@@ -32,19 +32,19 @@ const SEOHead = ({ title, description, keywords, image }: SEOHeadProps) => {
     updateMetaTag('description', description);
     if (keywords) updateMetaTag('keywords', keywords);
     updateMetaTag('robots', 'index, follow');
-    updateMetaTag('author', 'ElectroFix Motihari');
+    updateMetaTag('author', 'Prakash Electric Works Motihari');
 
     // Open Graph tags
-    updateMetaTag('og:title', `${title} | ElectroFix Motihari`, 'property');
+    updateMetaTag('og:title', `${title} | Prakash Electric Works Motihari`, 'property');
     updateMetaTag('og:description', description, 'property');
     updateMetaTag('og:image', image || defaultImage, 'property');
     updateMetaTag('og:url', currentUrl, 'property');
     updateMetaTag('og:type', 'website', 'property');
-    updateMetaTag('og:site_name', 'ElectroFix Motihari', 'property');
+    updateMetaTag('og:site_name', 'Prakash Electric Works Motihari', 'property');
 
     // Twitter Card tags
     updateMetaTag('twitter:card', 'summary_large_image', 'name');
-    updateMetaTag('twitter:title', `${title} | ElectroFix Motihari`, 'name');
+    updateMetaTag('twitter:title', `${title} | Prakash Electric Works Motihari`, 'name');
     updateMetaTag('twitter:description', description, 'name');
     updateMetaTag('twitter:image', image || defaultImage, 'name');
 
@@ -52,13 +52,13 @@ const SEOHead = ({ title, description, keywords, image }: SEOHeadProps) => {
     const schemaData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "ElectroFix Motihari",
+      "name": "Prakash Electric Works Motihari",
       "description": description,
       "url": currentUrl,
-      "telephone": "+91-9876543210",
+      "telephone": "+91-9934900409",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Main Market",
+        "streetAddress": "Balua Bazar",
         "addressLocality": "Motihari",
         "addressRegion": "Bihar",
         "postalCode": "845401",
@@ -66,23 +66,23 @@ const SEOHead = ({ title, description, keywords, image }: SEOHeadProps) => {
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "26.6486",
-        "longitude": "84.9194"
+        "latitude": "26.6449414",
+        "longitude": "84.9040381"
       },
       "serviceArea": {
         "@type": "GeoCircle",
         "geoMidpoint": {
           "@type": "GeoCoordinates",
-          "latitude": "26.6486",
-          "longitude": "84.9194"
+          "latitude": "26.6449414",
+          "longitude": "84.9040381"
         },
         "geoRadius": "50000"
       },
       "priceRange": "₹₹",
       "image": image || defaultImage,
       "sameAs": [
-        "https://www.facebook.com/electrofixmotihari",
-        "https://www.instagram.com/electrofixmotihari"
+        // "https://www.facebook.com/Prakash Electric Works motihari",
+        // "https://www.instagram.com/Prakash Electric Works motihari"
       ]
     };
 
