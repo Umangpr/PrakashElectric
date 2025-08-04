@@ -226,16 +226,28 @@ const Contact = () => {
             <Card>
               <CardContent className="p-0">
                 <div className="w-full h-96 bg-muted rounded-lg flex items-center justify-center">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.1234567890!2d84.9194!3d26.6486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDM4JzU1LjAiTiA4NMKwNTUnMDkuOCJF!5e0!3m2!1sen!2sin!4v1234567890"
-                    width="100%"
-                    height="384"
-                    style={{ border: 0, borderRadius: '8px' }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="ElectroFix Motihari Location"
-                  ></iframe>
+                  {/* <iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14135.106944070377!2d84.9040381!3d26.6449414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1692345678901"
+  width="100%"
+  height="384"
+  style={{ border: 0, borderRadius: '8px' }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Prakash Electric Works Motihari Location"
+/> */}
+<iframe
+  src="https://www.google.com/maps?q=26.6449414,84.9040381&z=15&output=embed"
+  width="100%"
+  height="384"
+  style={{ border: 0, borderRadius: '8px' }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Prakash Electric Works Motihari Location"
+/>
+
+
                 </div>
               </CardContent>
             </Card>
