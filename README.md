@@ -78,12 +78,8 @@ fetch(`${import.meta.env.VITE_API_URL}/contact`, { method: 'POST', body: formDat
 
 ## 📸 Screenshots (Optional)
 
-Add customer‑facing visuals using markdown like:
-```markdown
-![Website Preview](./frontend/public/prakashelectric.png)
-```
+![Website Preview](./Frontend/public/prakashelectric.png)
 
----
 
 ## 🔮 Future Roadmap
 
