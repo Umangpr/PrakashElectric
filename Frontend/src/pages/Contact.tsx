@@ -23,20 +23,7 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // const handleSubmit = async (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   setIsSubmitting(true);
-
-  //   // Simulate form submission (replace with actual API call)
-  //   setTimeout(() => {
-  //     toast({
-  //       title: "Message Sent!",
-  //       description: "We'll get back to you within 24 hours.",
-  //     });
-  //     setFormData({ name: "", phone: "", message: "" });
-  //     setIsSubmitting(false);
-  //   }, 1000);
-  // };
+  
 
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
@@ -80,9 +67,9 @@ const Contact = () => {
   return (
     <>
       <SEOHead
-        title="Contact Us - Get in Touch with ElectroFix Motihari"
-        description="Contact ElectroFix Motihari for electronics repair services. Visit our shop in Main Market, Motihari, Bihar or call +91 9876543210. Get directions, hours, and contact information."
-        keywords="contact electrofix motihari, electronics repair shop address, motihari bihar electrical services, phone number, location, directions"
+        title="Contact Us - Get in Touch with  Prakash Electric Works Motihari"
+        description="Contact  Prakash Electric Works Motihari for electronics repair services. Visit our shop in Main Market, Motihari, Bihar or call +91 9876543210. Get directions, hours, and contact information."
+        keywords="contact  Prakash Electric Works motihari, electronics repair shop address, motihari bihar electrical services, phone number, location, directions"
       />
 
       {/* Hero Section */}

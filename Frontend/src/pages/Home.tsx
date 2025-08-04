@@ -64,7 +64,7 @@ const Home = () => {
         keywords="electronics repair motihari, motor repair bihar, generator repair, fan repair, stabilizer repair, house wiring motihari, electrical services bihar"
       />
 
-      {/* Hero Section - Urban Company Style */}
+      {/* Hero Section -   */}
       <section className="bg-background py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -77,7 +77,7 @@ const Home = () => {
                 Professional motor, generator, fan, stabilizer repair and house wiring services in Motihari, Bihar. Quick, reliable, affordable.
               </p>
               
-              {/* Service Categories Grid - Urban Company Style */}
+              {/* Service Categories Grid -   */}
               <div className="grid grid-cols-2 gap-3 mb-8">
                 <div className="flex items-center gap-3 p-3 border border-border rounded-lg hover:shadow-soft transition-all cursor-pointer">
                   <div className="w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -158,7 +158,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section - Urban Company Style */}
+      {/* Stats Section -   */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -232,7 +232,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section - Urban Company Style */}
+      {/* CTA Section -   */}
       <section className="py-16 bg-foreground text-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card rounded-2xl p-8 md:p-12 text-center text-foreground">

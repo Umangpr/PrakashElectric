@@ -50,43 +50,6 @@ const BookService = () => {
     "6:00 PM - 7:00 PM"
   ];
 
-  // const handleSubmit = async (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   setIsSubmitting(true);
-
-  //   // Validate required fields
-  //   if (!formData.name || !formData.phone || !formData.serviceType) {
-  //     toast({
-  //       title: "Missing Information",
-  //       description: "Please fill in all required fields.",
-  //       variant: "destructive"
-  //     });
-  //     setIsSubmitting(false);
-  //     return;
-  //   }
-
-  //   // Simulate API call (replace with actual backend integration)
-  //   setTimeout(() => {
-  //     toast({
-  //       title: "Service Booked Successfully!",
-  //       description: `We'll call you at ${formData.phone} to confirm your appointment.`,
-  //     });
-      
-  //     // Reset form
-  //     setFormData({
-  //       name: "",
-  //       phone: "",
-  //       address: "",
-  //       serviceType: "",
-  //       preferredDate: "",
-  //       preferredTime: "",
-  //       description: ""
-  //     });
-  //     setIsSubmitting(false);
-  //   }, 1500);
-  // };
-
-
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
   setIsSubmitting(true);
